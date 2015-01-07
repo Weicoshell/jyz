@@ -1,0 +1,11 @@
+#include"my_getch.h"
+#include"math.h"
+#include"time.h"
+#define SPACE() printf(" ")
+#define RED_NUM(n) printf("\033[;31m%4d",(n))
+#define GREEN_NUM(n) printf("\033[;32m%4d",(n))
+#define BLUE_NUM(n) printf("\033[;34m%4d",(n))
+#define YELLOW_NUM(n) printf("\033[;33m%4d",(n))
+#define PURPLE_NUM(n) printf("\033[;35m%4d",(n))
+#define DEEPGREEN_NUM(n) printf("\033[;36m%4d",(n))
+/*根据不同的number进行不同的宏替换，输出不同颜色的数字*/
